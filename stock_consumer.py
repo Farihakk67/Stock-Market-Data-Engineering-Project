@@ -5,8 +5,8 @@ import boto3
 from datetime import datetime
 
 # AWS credentials
-os.environ['AWS_ACCESS_KEY_ID'] = 'AKIAQCOH3G6BIJE7LEMT'
-os.environ['AWS_SECRET_ACCESS_KEY'] = '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'
+aws_access_key = os.getenv("AWS_ACCESS_KEY_ID")
+aws_secret = os.getenv("AWS_SECRET_ACCESS_KEY")
 
 # S3 client
 s3_client = boto3.client('s3', region_name='us-east-1')
