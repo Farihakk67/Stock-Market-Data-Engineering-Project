@@ -6,7 +6,6 @@ A fully containerized, end-to-end real-time data engineering pipeline that simul
 
 This project demonstrates a production-style data pipeline architecture using industry-standard tools.
 
----
 
 ## 🏗️ Architecture
 
@@ -38,7 +37,6 @@ This project demonstrates a production-style data pipeline architecture using in
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
----
 
 ## 🛠️ Tech Stack
 
@@ -53,7 +51,6 @@ This project demonstrates a production-style data pipeline architecture using in
 | Containerization| Docker & Docker Compose           |
 | Dataset         | Real stock market CSV data        |
 
----
 
 ## ✨ Key Features
 
@@ -63,7 +60,7 @@ This project demonstrates a production-style data pipeline architecture using in
 - **Live dashboard** — Streamlit app displays real-time stock prices and trends
 - **Fully containerized** — Docker Compose brings up Kafka + Zookeeper with a single command
 
----
+
 
 ## 📁 Project Structure
 
@@ -82,7 +79,6 @@ stock-market-kafka-data-engineering-project/
 └── README.md
 ```
 
----
 
 ## ⚙️ Setup & Installation
 
@@ -127,7 +123,6 @@ streamlit run streamlit_kafka.py
 ```
 Open `http://localhost:8501` to view the live dashboard.
 
----
 
 ## ☁️ AWS Setup Notes
 
@@ -141,7 +136,6 @@ ORDER BY timestamp DESC
 LIMIT 100;
 ```
 
----
 
 ## 📊 Dataset
 
@@ -149,7 +143,6 @@ LIMIT 100;
 - **Size:** ~10 MB
 - **Content:** Historical stock market index data including open, close, high, low, volume
 
----
 
 ## 🤝 Contributing
 
@@ -161,16 +154,15 @@ Contributions are welcome.
 4. Push to the branch: `git push origin feature/your-feature`
 5. Open a Pull Request
 
----
 
 ## 📄 License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
----
+
 
 ## 👩‍💻 Author
 
 **Fariha**
 BS Computer Science — Muhammad Ali Jinnah University, Karachi
-[GitHub](https://github.com/Farihakk67) • [LinkedIn](https://linkedin.com/in/fariha-kk)
+• [LinkedIn](https://linkedin.com/in/fariha-kk)
