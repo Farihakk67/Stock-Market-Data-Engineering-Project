@@ -1,0 +1,5 @@
+echo kafka-python==2.0.2 > requirements_fixed.txt
+echo pandas==2.1.3 >> requirements_fixed.txt
+echo streamlit==1.28.0 >> requirements_fixed.txt
+echo boto3==1.26.164 >> requirements_fixed.txt
+echo matplotlib==3.7.1 >> requirements_fixed.txt
